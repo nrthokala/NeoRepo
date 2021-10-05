@@ -1,0 +1,49 @@
+10.1 
+1) Summary Function
+2) Data Verb
+3) Transformation
+4) Reduction Function
+5) Data Verb
+6) Summary Function
+7) Data Verb
+8) Summary Function
+
+10.2
+1) mutate()
+2) arrange()
+3) filter()
+4) select()
+5) filter() & arrange()
+
+10.3
+1) aggregate(), nrow()  
+2) ls(), object() 
+3) library(), import()
+4) .libPaths(), library(), search()    
+5) group_by(), skim()
+
+10.4
+1) select(name, sex, count, year)
+2) select(name, sex, count, year)
+3) select(name, sex, count, year)
+4) filter(total)
+5) select(name, count)
+
+10.5
+1) 54
+2) Ole savior
+3) Ole Savior
+
+10.6
+1)diamonds %>%  
+  group_by(color) %>% 
+  summarise("mean" = sum(mean(carat))) %>% 
+  arrange(desc(mean)) %>% 
+  head(1)
+2)diamonds %>%  
+  group_by(clarity) %>% 
+  summarise("mean" = sum(mean(table/carat))) %>% 
+  arrange(desc(mean)) %>% 
+  head(1)
+
+10.7
