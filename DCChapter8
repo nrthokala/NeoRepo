@@ -1,0 +1,16 @@
+8.1
+Construct a graphics frame.                                     ggplot()
+Add a layer of glyphs.                                          geom_point() and geom_histogram()
+Set an axis label.                                              ylab()
+Divide the frame into facets.                                   facet_wrap() and facet_grid()
+Change the scale for the frame.                                 scale_y_log10()
+
+
+
+8.2
+cps85 %>%
+ggplot(cps85)
+
+8.3 
+cps85 %>%
+ggplot(cps85)
